@@ -55,13 +55,5 @@ This project aims to classify whether an image, captured from a video feed, repr
 - matplotlib
 - torchvision
 
-## Acknowledgements
-This project uses models and techniques provided by TorchVision and scikit-learn libraries.
-
----
-Feel free to fork, modify, and improve this project!
-
----
-
 ### Author
-**Your Name** | [your-email@example.com](mailto:your-email@example.com) | [LinkedIn](https://linkedin.com/in/your-profile)
+**Ali Zoljodi**
