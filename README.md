@@ -10,6 +10,9 @@ This project aims to classify whether an image, captured from a video feed, repr
 - **Deep Learning Models:**
   - Fine-tuned **Pretrained ResNet18** from TorchVision.
   - Custom-built **LeNet** architecture.
+- **Text Recognition (Post-processing):**
+  - **Tesseract OCR** for lightweight document digitization.
+  - **LayoutLMv3**, **Donut**, **Pix2Struct**, and **LLAMA4** for advanced document understanding.
 - **Evaluation Metrics:**
   - F1-Score is the primary metric for model evaluation.
 
@@ -54,6 +57,20 @@ This project aims to classify whether an image, captured from a video feed, repr
 - scikit-learn
 - matplotlib
 - torchvision
+- pytesseract
+- transformers
+- huggingface_hub
+
+## Advanced Text Extraction
+In addition to conventional classification, this project demonstrates how to extract text from document images using:
+- **Tesseract OCR** for efficient, open-source optical character recognition.
+- **LayoutLMv3**, **Donut**, and **Pix2Struct** for visual-text understanding.
+- **LLAMA4-based pipeline** for advanced multi-modal document extraction.
+
+You can try the live demo or fine-tuned version of the LLAMA4 integration here:
+👉 [PageFlip LLAMA4 on Hugging Face Spaces]([https://huggingface.co/spaces/your-space/page-flip-llama4](https://huggingface.co/spaces/alizoljodi/LLM_OCR))
+
+---
 
 ### Author
 **Ali Zoljodi**
