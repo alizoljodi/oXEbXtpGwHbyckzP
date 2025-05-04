@@ -68,7 +68,7 @@ In addition to conventional classification, this project demonstrates how to ext
 - **LLAMA4-based pipeline** for advanced multi-modal document extraction.
 
 You can try the live demo or fine-tuned version of the LLAMA4 integration here:
-👉 [PageFlip LLAMA4 on Hugging Face Spaces]([https://huggingface.co/spaces/your-space/page-flip-llama4](https://huggingface.co/spaces/alizoljodi/LLM_OCR))
+👉 [PageFlip LLAMA4 on Hugging Face Spaces](https://huggingface.co/spaces/alizoljodi/LLM_OCR)
 
 ---
 
