@@ -1,3 +1,4 @@
+
 # Page Flip Detection Project
 
 ## Overview
@@ -13,6 +14,8 @@ This project aims to classify whether an image, captured from a video feed, repr
 - **Text Recognition (Post-processing):**
   - **Tesseract OCR** for lightweight document digitization.
   - **LayoutLMv3**, **Donut**, **Pix2Struct**, and **LLAMA4** for advanced document understanding.
+- **Text-to-Speech (TTS) Voice Playback:**
+  - Extracted text is optionally passed to **Text-to-Speech engines** like **gTTS** or **pyttsx3** to generate and play audio, enabling real-time document narration.
 - **Evaluation Metrics:**
   - F1-Score is the primary metric for model evaluation.
 
@@ -60,17 +63,19 @@ This project aims to classify whether an image, captured from a video feed, repr
 - pytesseract
 - transformers
 - huggingface_hub
+- gTTS or pyttsx3 *(for optional voice output)*
 
 ## Advanced Text Extraction
 In addition to conventional classification, this project demonstrates how to extract text from document images using:
 - **Tesseract OCR** for efficient, open-source optical character recognition.
 - **LayoutLMv3**, **Donut**, and **Pix2Struct** for visual-text understanding.
 - **LLAMA4-based pipeline** for advanced multi-modal document extraction.
+- ✅ **Voice Playback**: Once the text is extracted, the system can optionally generate **spoken audio** using TTS engines. This enables document narration, screen reader functionality, and audio-based accessibility for extracted content.
 
-You can try the live demo or fine-tuned version of the LLAMA4 integration here:
+You can try the live demo or fine-tuned version of the LLAMA4 integration here:  
 👉 [PageFlip LLAMA4 on Hugging Face Spaces](https://huggingface.co/spaces/alizoljodi/LLM_OCR)
 
 ---
 
-### Author
+## Author
 **Ali Zoljodi**
